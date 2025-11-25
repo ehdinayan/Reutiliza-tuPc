@@ -1,0 +1,66 @@
+{
+  "nav.services": "Servicios",
+  "nav.how": "Cómo funciona",
+  "nav.about": "Sobre mí",
+  "nav.contact": "Contacto",
+
+  "hero.title": "Da una segunda vida a tu portátil o PC antiguo",
+  "hero.subtitle": "Instalo un sistema Linux ligero para que tu equipo vuelva a ir rápido sin comprar uno nuevo. Ideal para navegar, estudiar, ver vídeos, usar documentos y correo.",
+  "hero.badge_old_machines": "Funciona en equipos antiguos",
+  "hero.badge_licenses": "Sin pagar licencias",
+  "hero.badge_ecology": "Ahorro y menos residuos electrónicos",
+  "hero.whatsapp_button": "Escribirme por WhatsApp",
+  "hero.services_button": "Ver servicios y precios",
+  "hero.note": "Consulta gratuita: dime el modelo de tu equipo y te digo si merece la pena recuperarlo.",
+
+  "services_intro": "Servicios y precios orientativos",
+  "services_explanation": "Trabajo con tres tipos de equipos: notebooks, portátiles y sobremesas. Los precios pueden variar un poco según el estado del equipo y si quieres añadir un SSD u otras mejoras.",
+
+  "notebook": "Miniportátiles",
+  "notebook_price": "Desde 35 €",
+  "notebook_explanation": "Para equipos pequeños y con poca memoria (netbooks, notebooks antiguos).",
+  "notebook_list_1": "Instalación de Linux ligero (antiX, MX, Puppy...)",
+  "notebook_list_2": "Configuración básica: internet y ofimática sencilla",
+  "notebook_list_3": "Optimización máxima",
+
+  "laptops": "Portátiles",
+  "laptops_price": "Desde 40 €",
+  "laptops_explanation": "La opción más habitual. A menudo los portátiles con 4 GB de RAM y CPU de 2 núcleos se ahogan con Windows.",
+  "laptops_list_1": "Linux fácil de usar (Mint XFCE, MX, Zorin Lite…)",
+  "laptops_list_2": "Programas esenciales: navegador, ofimática, PDF, vídeo",
+  "laptops_list_3": "Ajustes de rendimiento",
+
+  "pc": "Sobremesa",
+  "pc_price": "Desde 45 €",
+  "pc_explanation": "Perfecto para equipos de casa o trabajo que se han quedado lentos.",
+  "pc_list_1": "Instalación Linux en función del equipo y puesta a punto",
+  "pc_list_2": "Cambio opcional a SSD",
+
+  "cool": "💡 Si veo que tu equipo no va a mejorar, te lo digo antes: nunca cobro por nada que no funcione.",
+
+  "how_it_works": "Cómo funciona el servicio",
+  "how_it_works_intro": "Proceso sencillo y sin compromiso.",
+  "step_1": "Paso 1",
+  "step_1_intro": "Revisamos tu equipo",
+  "step_1_explanation": "Me dices el modelo y qué problema notas. Probamos una versión live de Linux desde un pendrive sin instalar nada para ver si te gusta y si hay mejora.",
+  "step_2": "Paso 2",
+  "step_2_intro": "Instalación y optimización",
+  "step_2_explanation": "Instalo Linux ligero, programas esenciales y dejo todo funcionando.",
+  "step_3": "Paso 3",
+  "step_3_intro": "Entrega y guía rápida",
+  "step_3_explanation": "Te explico lo básico si lo necesitas.",
+
+  "about_me": "Sobre mí",
+  "about_me_explanation": "Soy Alejandro, desarrollador web y entusiasta de GNU/Linux. Me formé en Linux básico y avanzado y he trabajado con muchas distros ligeras.",
+  "about_me_likes": "Creo en reducir residuos electrónicos y en aprovechar equipos que siguen siendo útiles. Si quieres que tu portátil o PC vuelva a ser rápido, estaré encantado de ayudarte.",
+
+  "contact_title": "Contacto",
+  "contact_intro": "Escríbeme y cuéntame tu caso. Sin compromiso.",
+  "phone_whatsapp": "Teléfono / WhatsApp:",
+  "phone_number": "643 24 66 61",
+  "whatsapp": "WhatsApp directo:",
+  "whatsapp_direct": "Mandar mensaje por WhatsApp",
+  "send_me_pic": "Puedes enviarme foto del portátil o PC si quieres para una revisión inicial.",
+
+  "footer": "Reutiliza tu PC · Instalación y configuración de Linux en equipos antiguos."
+}

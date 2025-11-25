@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reutiliza tu PC - Instalación Linux en equipos antiguos</title>
+  <meta name="description" content="Reutiliza tu portátil o PC antiguo instalando un sistema Linux ligero. Servicio local de Alejandro: tu ordenador más rápido sin comprar uno nuevo.">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/lang.js" defer></script>
+  <script src="js/menu.js" defer></script>
+</head>
+
+
+
+<body>
+  <!--<header>
+  <div class="nav-container">
+    <div class="logo">
+      Reutiliza<span>tuPC</span>
+    </div>
+      <nav>
+        <ul>
+          <li><a href="#servicios" data-i18n="nav.services">Servicios</a></li>
+          <li><a href="#como-funciona" data-i18n="nav.how">Cómo funciona</a></li>
+          <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+          <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </nav>
+  </div>
+
+  <Idioma>
+  <div id="flags" class="flags">
+    <div class="flags_item">
+      <img src="media/es.svg" alt="bandera España" data-language="es">
+      <img src="media/es-ct.svg" alt="bandera Cataluña" data-language="cat">
+    </div>
+  </div>
+</header>-->
+
+<header>
+  <div class="nav-container">
+    <div class="logo">
+      Reutiliza<span>tuPC</span>
+    </div>
+
+    <!-- Menú escritorio -->
+    <nav class="nav-main">
+      <ul class="nav-list desktop-menu">
+        <li><a href="#servicios" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="#como-funciona" data-i18n="nav.how">Cómo funciona</a></li>
+        <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Botón hamburguesa -->
+    <div class="nav-right">
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Menú móvil -->
+  <ul class="menu mobile-menu" id="mobile-menu">
+    <li><a href="#servicios" data-i18n="nav.services">Servicios</a></li>
+    <li><a href="#como-funciona" data-i18n="nav.how">Cómo funciona</a></li>
+    <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+    <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+  </ul>
+
+  <!--Idioma-->
+  <div id="flags" class="flags">
+    <div class="flags_item">
+      <img src="media/es.svg" alt="bandera España" data-language="es">
+      <img src="media/es-ct.svg" alt="bandera Cataluña" data-language="cat">
+    </div>
+  </div>
+</header>
+
+
+
+  <main>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <h1 data-i18n="hero.title">
+      Da una segunda vida a tu portátil o PC antiguo
+    </h1>
+
+    <p class="hero-subtitle" data-i18n="hero.subtitle">
+      Instalo un sistema Linux ligero para que tu equipo vuelva a ir rápido sin comprar uno nuevo.
+      Ideal para navegar, estudiar, ver vídeos, usar documentos y correo.
+    </p>
+
+    <div class="badges">
+      <span class="badge" data-i18n="hero.badge_old_machines">Funciona en equipos antiguos</span>
+      <span class="badge" data-i18n="hero.badge_licenses">Sin pagar licencias</span>
+      <span class="badge" data-i18n="hero.badge_ecology">Ahorro y menos residuos electrónicos</span>
+    </div>
+
+    <div class="hero-actions">
+      <a class="btn-primary"
+         href="https://wa.me/34643246661?text=Hola%20Alejandro%2C%20he%20visto%20tu%20servicio%20para%20reutilizar%20port%C3%A1tiles%20con%20Linux."
+         target="_blank" rel="noopener"
+         data-i18n="hero.whatsapp_button">
+        Escribirme por WhatsApp
+      </a>
+      <a class="btn-secondary" href="#servicios" data-i18n="hero.services_button">
+        Ver servicios y precios
+      </a>
+    </div>
+
+    <p class="hero-note" data-i18n="hero.note">
+      Consulta gratuita: dime el modelo de tu equipo y te digo si merece la pena recuperarlo.
+    </p>
+  </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+      <h2 data-i18n="services_intro">Servicios y precios orientativos</h2>
+      <p class="section-intro" data-i18n="services_explanation">
+        Trabajo con tres tipos de equipos: notebooks, portátiles y sobremesas.
+        Los precios pueden variar un poco según el estado del equipo y si quieres añadir un SSD u otras mejoras.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Notebook</h3>
+          <div class="chip" data-i18n="notebook">Miniportátiles</div>
+          <p class="price" data-i18n="notebook_price">Desde 35 €</p>
+          <p data-i18n="notebook_explanation">Para equipos pequeños y con poca memoria (netbooks, notebooks antiguos).</p>
+          <br>
+          <ul>
+            <li data-i18n="notebook_list_1">Instalación de Linux ligero...</li>
+            <li data-i18n="notebook_list_2">Configuración básica...</li>
+            <li data-i18n="notebook_list_3">Optimización máxima</li>
+          </ul>
+          <br><br><br>
+          <img src="media/antix.jpeg" alt="escritorio antixLinux">
+
+        </article>
+
+        <article class="card">
+          <h3>Laptop</h3>
+          <div class="chip" data-i18n="laptops">Portátiles</div>
+          <p class="price" data-i18n="laptops_price">Desde 40 €</p>
+          <p data-i18n="laptops_explanation">La opción más habitual.A menudo los portátiles con 4GB de Ram y CPU de 2 núcleos se ahogan con windows</p>
+          <br>
+          <ul>
+            <li data-i18n="laptops_list_1">Linux fácil de usar (Mint XFCE, MX, Zorin Lite…)</li>
+            <li data-i18n="laptops_list_2">Programas esenciales: navegador, ofimática, PDF, vídeo</li>
+            <li data-i18n="laptops_list_3">Ajustes de rendimiento</li>
+          </ul>
+          <br><br>
+          <img src="media/mintXFCE.jpeg" alt="escritorio linux Mint">
+
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="pc">Sobremesa</h3>
+          <div class="chip">PC torre / AIO (All-in-One PC)</div>
+          <p class="price" data-i18n="pc_price">Desde 45 €</p>
+          <p data-i18n="pc_explanation">Perfecto para equipos de casa o trabajo que se han quedado lentos.</p>
+          <br>
+          <ul>
+            <li data-i18n="pc_list_1">Instalación Linux en función del equipo y puesta a punto,</li>
+            <li data-i18n="pc_list_2">Cambio opcional a SSD</li>
+          </ul>
+          <br><br>
+          <br><br><br>
+          <img src="media/MXLinux.jpg" alt="escritorio MXLinux">
+        </article>
+      </div>
+
+      <p class="small-note" style="margin-top:0.8rem;" data-i18n="cool">
+        💡 Si veo que tu equipo no va a mejorar, te lo digo antes: nunca cobro por nada que no funcione.
+      </p>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section id="como-funciona">
+      <h2 data-i18n="how_it_works">Cómo funciona el servicio</h2>
+      <p class="section-intro" data-i18n="how_it_works_intro">
+        Proceso sencillo y sin compromiso.
+      </p>
+
+      <div class="steps">
+        <div>
+          <div class="step-number" data-i18n="step_1">Paso 1</div>
+          <div class="step-title" data-i18n="step_1_intro">Revisamos tu equipo</div>
+          <p data-i18n="step_1_explanation">Me dices el modelo y qué problema notas. Probamos una version live de Linux desde un pendrive sin instalar nada a ver si te gusta o si hay mejora.</p>
+        </div>
+        <div>
+          <div class="step-number" data-i18n="step_2">Paso 2</div>
+          <div class="step-title" data-i18n="step_2_intro">Instalación y optimización</div>
+          <p data-i18n="step_2_explanation">Instalo Linux ligero, programas esenciales y dejo todo funcionando.</p>
+        </div>
+        <div>
+          <div class="step-number" data-i18n="step_3">Paso 3</div>
+          <div class="step-title" data-i18n="step_3_intro">Entrega y guía rápida</div>
+          <p data-i18n="step_3_explanation">Te explico lo básico si lo necesitas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+      <h2 data-i18n="about_me">Sobre mí</h2>
+      <div class="about">
+        <div>
+          <p data-i18n="about_me_explanation">
+            Soy Alejandro, desarrollador web y entusiasta de GNU/Linux.
+            Me formé en Linux básico y avanzado y he trabajado con muchas distros ligeras.
+          </p>
+        </div>
+        <div>
+          <p data-i18n="about_me_likes">
+            Creo en reducir residuos electrónicos y en aprovechar equipos que siguen siendo útiles.
+            Si quieres que tu portátil o PC vuelva a ser rápido, estaré encantado de ayudarte.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2 data-i18n="contact_title">Contacto</h2>
+      <p class="section-intro" data-i18n="contact_intro">
+        Escríbeme y cuéntame tu caso. Sin compromiso.
+      </p>
+
+      <div class="contact-box">
+        <p class="contact-line">
+          <span data-i18n="phone_whatsapp">Teléfono / WhatsApp:</span><br>
+          <a href="tel:+34643246661" data-i18n="phone_number">643 24 66 61</a>
+        </p>
+
+        <p class="contact-line">
+          <span data-i18n="whatsapp">WhatsApp directo:</span><br>
+          <a href="https://wa.me/34643246661?text=Hola%20Alejandro%2C%20he%20visto%20tu%20servicio%20para%20reutilizar%20port%C3%A1tiles%20con%20Linux." target="_blank" data-i18n="whatsapp_direct">
+            Mandar mensaje por WhatsApp
+          </a>
+        </p>
+
+        <p class="small-note" style="margin-top:0.6rem;" data-i18n="send_me_pic">
+          Puedes enviarme foto del portátil o PC si quieres para una revisión inicial.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer data-i18n="footer">
+    Reutiliza tu PC · Instalación y configuración de Linux en equipos antiguos.
+  </footer>
+
+</body>
+</html>

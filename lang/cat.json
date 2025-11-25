@@ -1,0 +1,66 @@
+{
+  "nav.services": "Serveis",
+  "nav.how": "Com funciona",
+  "nav.about": "Sobre mi",
+  "nav.contact": "Contacte",
+
+  "hero.title": "Dóna una segona vida al teu portàtil o PC antic",
+  "hero.subtitle": "Instal·lo un sistema Linux lleuger perquè el teu equip torni a anar ràpid sense haver de comprar-ne un de nou. Ideal per navegar, estudiar, veure vídeos, utilitzar documents i correu.",
+  "hero.badge_old_machines": "Funciona en equips antics",
+  "hero.badge_licenses": "Sense pagar llicències",
+  "hero.badge_ecology": "Estalvi i menys residus electrònics",
+  "hero.whatsapp_button": "Escriure'm per WhatsApp",
+  "hero.services_button": "Veure serveis i preus",
+  "hero.note": "Consulta gratuïta: digue'm el model del teu equip i et diré si val la pena recuperar-lo.",
+
+  "services_intro": "Serveis i preus orientatius",
+  "services_explanation": "Treballo amb tres tipus d'equips: notebooks, portàtils i ordinadors de sobretaula. Els preus poden variar una mica segons l'estat de l'equip i si vols afegir un SSD o altres millores.",
+
+  "notebook": "Miniportàtils",
+  "notebook_price": "Des de 35 €",
+  "notebook_explanation": "Per a equips petits i amb poca memòria (netbooks, notebooks antics).",
+  "notebook_list_1": "Instal·lació de Linux lleuger (antiX, MX, Puppy...)",
+  "notebook_list_2": "Configuració bàsica: internet i ofimàtica senzilla",
+  "notebook_list_3": "Optimització màxima",
+
+  "laptops": "Portàtils",
+  "laptops_price": "Des de 40 €",
+  "laptops_explanation": "L'opció més habitual. Sovint els portàtils amb 4 GB de RAM i CPU de 2 nuclis s'ofeguen amb Windows.",
+  "laptops_list_1": "Linux fàcil d'utilitzar (Mint XFCE, MX, Zorin Lite…)",
+  "laptops_list_2": "Programes essencials: navegador, ofimàtica, PDF, vídeo",
+  "laptops_list_3": "Ajustos de rendiment",
+
+  "pc": "Escriptori",
+  "pc_price": "Des de 45 €",
+  "pc_explanation": "Perfecte per a equips de casa o de feina que s'han quedat lents.",
+  "pc_list_1": "Instal·lació de Linux en funció de l'equip i posada a punt",
+  "pc_list_2": "Canvi opcional a SSD",
+
+  "cool": "💡 Si veig que el teu equip no millorarà prou, t'ho dic abans: mai cobro per res que no funcioni.",
+
+  "how_it_works": "Com funciona el servei",
+  "how_it_works_intro": "Procés senzill i sense compromís.",
+  "step_1": "Pas 1",
+  "step_1_intro": "Revisem el teu equip",
+  "step_1_explanation": "Em dius el model i quin problema notes. Provem una versió live de Linux des d'un pendrive sense instal·lar res per veure si t'agrada i si hi ha millora.",
+  "step_2": "Pas 2",
+  "step_2_intro": "Instal·lació i optimització",
+  "step_2_explanation": "Instal·lo Linux lleuger, programes essencials i ho deixo tot funcionant.",
+  "step_3": "Pas 3",
+  "step_3_intro": "Lliurament i guia ràpida",
+  "step_3_explanation": "T'explico el més bàsic si ho necessites.",
+
+  "about_me": "Sobre mi",
+  "about_me_explanation": "Sóc l'Alejandro, desenvolupador web i entusiasta de GNU/Linux. M'he format en Linux bàsic i avançat i he treballat amb moltes distros lleugeres.",
+  "about_me_likes": "Crec en reduir residus electrònics i aprofitar equips que encara són útils. Si vols que el teu portàtil o PC torni a ser ràpid, estaré encantat d'ajudar-te.",
+
+  "contact_title": "Contacte",
+  "contact_intro": "Escriu-me i explica'm el teu cas. Sense compromís.",
+  "phone_whatsapp": "Telèfon / WhatsApp:",
+  "phone_number": "643 24 66 61",
+  "whatsapp": "WhatsApp directe:",
+  "whatsapp_direct": "Enviar missatge per WhatsApp",
+  "send_me_pic": "Pots enviar-me una foto del portàtil o PC si vols per a una revisió inicial.",
+
+  "footer": "Reutilitza el teu PC · Instal·lació i configuració de Linux en equips antics."
+}
