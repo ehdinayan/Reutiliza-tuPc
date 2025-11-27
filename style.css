@@ -297,16 +297,26 @@ section h2 {
   gap: 1rem;
 }
 
-
 .card img {
   max-height: 180px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+  border-radius: 8px;
+  transition: transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+              box-shadow 0.35s ease;
 }
 
-.steps{
-  margin: 0 auto;
+.card img:hover {
+  transform: scale(1.015); /* suave, como en la foto de Sobre mí */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.35); /* sombra suave */
+}
+
+
+.steps {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .whatsapp-link:hover .whatsapp-icon {
@@ -314,10 +324,39 @@ section h2 {
   transition: 0.15s ease;
 }
 
+.about {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 3fr;
+}
+
+
+.about-photo img {
+  border: 2px solid #F2B552;
+  border-radius: 12px;
+  max-width: 220px;
+  transition: transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+              box-shadow 0.35s ease,
+              border-color 0.35s ease;
+}
+
+.about-photo img:hover {
+  transform: scale(1.015); /* MÁS suave: antes era 1.03 */
+  border-color: #ffd68a;
+  box-shadow: 0 0 4px rgba(242,181,82,0.45); /* también más suave */
+}
+
 
 /*-----------------------------------------------------------*/
 
 /* Móvil / tablets pequeñas */
+
+@media (max-width: 361px) {
+  .steps {
+    grid-template-columns: 1fr !important;   /* una columna */
+    gap: 1.5rem;                   /* más separación para que respiren */
+  }
+}
 
 @media (max-width: 768px) {
   .desktop-menu {
@@ -329,7 +368,16 @@ section h2 {
   .nav-main{
     display: none;
   }
+  .about {
+    grid-template-columns: 1fr !important; /* fuerza columna única */
+    text-align: center;
+  }
+
+  .about-photo img {
+    margin: 0 auto;
+  }
 }
+
 
 /* Escritorio / tablets grandes */
 
